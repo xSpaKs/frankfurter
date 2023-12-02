@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Frankfurter</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+        />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="error" style="color: red"></div>
+        <form action="" method="get">
+            <div>
+                <label for="">Montant</label>
+                <input name="amount" type="number" step="0.01" value="1" />
+            </div>
+            <div>
+                <label for="liste1">Devise à convertir</label>
+                <select name="liste1" id="liste1"></select>
+            </div>
+            <div>
+                <label for="liste2">Devise de conversion</label>
+                <select name="liste2" id="liste2"></select>
+            </div>
+            <input type="submit" />
+        </form>
+        <div class="result"></div>
+    </body>
+</html>
